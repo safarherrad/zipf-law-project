@@ -1,0 +1,28 @@
+# Ignorer les caches Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Ignorer les checkpoints de Jupyter
+.ipynb_checkpoints/
+
+# Ignorer les fichiers de configuration personnels ou sensibles
+.env
+*.env
+
+# Ignorer les données brutes et les fichiers lourds
+data/raw/
+*.zip
+*.tar.gz
+
+# Ignorer les visualisations exportées (optionnel)
+visualizations/*.png
+visualizations/*.svg
+
+# Ignorer les fichiers temporaires de VSCode ou autres éditeurs
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Ignorer les données de Chrome
+AppData/Local/Google/Chrome/
